@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "sos-mecano",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    },
+    "define": {
+      "timestamps": false
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "sos-mecano",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    },
+    "define": {
+      "timestamps": false
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "sos-mecano",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    },
+    "define": {
+      "timestamps": false
+    }
+  }
+}
